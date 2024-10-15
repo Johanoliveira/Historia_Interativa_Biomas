@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+#Title{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(6, 90, 6);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(214, 239, 213);
+}
+#Explicacao{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(42, 48, 54);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#Explicacao h3{
+    padding-top: 30px;
+    color: white;
+}
+#main{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(42, 48, 54);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#botao{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(6, 90, 6);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s;
+    border-radius: 15px;
+}
+#botao h2{
+    color: white;
+    text-decoration: none;
+    padding-top: 35px;
+}
+#botao:hover{
+    transform: scale(2);
+    border-radius: 20px;
+}
